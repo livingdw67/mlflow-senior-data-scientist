@@ -1,7 +1,5 @@
-venv/
+﻿venv/
 __pycache__/
-.DS_Store
-# Ignore the actual model artifacts (they are too big for git)
+.env
 mlruns/
-# Ignore datasets if they are large
-*.csv
+.DS_Store
